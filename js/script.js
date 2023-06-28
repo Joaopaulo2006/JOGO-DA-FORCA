@@ -5,14 +5,14 @@ let acertos = 6;
 let palavras = [];
 
 const Banco = '../json/palavras.json';
-// Carregar palavras do arquivo JSON
 fetch(Banco)
   .then(response => response.json())
   .then(data => {
     palavras = data.palavras;
     criaPlvrScrt();
   })
-  .catch(error => console.error(error));
+  .catch(error => {
+    console.error("Ocorreu um erro ao ler o arquivo JSON:", error)});
 
 function criaPlvrScrt() {
   const indexPalavra = parseInt(Math.random() * palavras.length);
