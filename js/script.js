@@ -4,7 +4,7 @@ let listdnmc = [];
 let acertos = 6;
 let palavras = [];
 
-const Banco = '../dados/palavras.json';
+const Banco = '../json/palavras.json';
 // Carregar palavras do arquivo JSON
 fetch(Banco)
   .then(response => response.json())
