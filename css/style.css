@@ -108,7 +108,7 @@ body {
 #imgForca {
     height: 240px;
     width: 200px;
-    background-image: url("/imagem/Imagem.png");
+    background-image: url("/image/Imagem.png");
     background-position: right;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -142,7 +142,7 @@ body {
 }
 #BtnEnter {
     width: 150px;
-    background-image: url("/imagem/Enter.png");
+    background-image: url("/image/Enter.png");
     background-size: cover;
     background-position: center;
     opacity: 0.253;
