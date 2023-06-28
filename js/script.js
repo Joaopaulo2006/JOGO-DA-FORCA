@@ -110,25 +110,25 @@ function comparaListas(letra) {
 function carregaImagemErro() {
     switch (acertos) {
         case 5:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem1.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem1.png') 100% no-repeat";
             break;
         case 4:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem2.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem2.png') 100% no-repeat";
             break;
         case 3:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem3.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem3.png') 100% no-repeat";
             break;
         case 2:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem4.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem4.png') 100% no-repeat";
             break;
         case 1:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem5.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem5.png') 100% no-repeat";
             break;
         case 0:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem6.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem6.png') 100% no-repeat";
             break;
         default:
-            document.getElementById("imgForca").style.background = "url('../imagem/Imagem.png') 100% no-repeat";
+            document.getElementById("imgForca").style.background = "url('../image/Imagem.png') 100% no-repeat";
     }
 }
 function abreModal(titulo, mensagem) {
